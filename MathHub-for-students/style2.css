@@ -1,0 +1,59 @@
+body{
+    background-color:#a1c5ec
+ }
+
+/* Style the link container */
+.link-container { 
+    margin: 20px; 
+} 
+/* Style the navigation row */
+.units-row { 
+display: flex; 
+flex-wrap: wrap; /* This ensures the links wrap to the next line if the screen is narrow */ 
+gap: 60px; /* Space between the boxes */ 
+justify-content: center; 
+} 
+/* Style each link to look like a box */ 
+.units-row a { 
+display: block; 
+text-decoration: none; 
+background-color: #ffffff; 
+color: rgb(0, 0, 0); /* White text */ 
+padding: 20px; /* Add padding to create a box effect */ 
+border-radius: 8px; /* Rounded corners */ 
+width: 200px; /* Set a fixed width for the boxes */ 
+text-align: center; /* Center the text inside the box */ 
+box-sizing: border-box; /* Ensure padding is included in the width */ 
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */ 
+} 
+/* Add some styling for the <h3> tags inside each link */ 
+.units-row a h3 { 
+margin: 0; 
+font-size: 18px; 
+} 
+/* Hover effect to make the box change color when hovered */ 
+.units-row a:hover { 
+background-color:#007BFF; 
+} 
+/* Optional: Add a small shadow effect on hover for a more interactive feel */ 
+.units-row a:hover { 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ h3 {
+    font-family: Arial Black;
+}
+
+h1{
+    text-align: center;
+}
+.homepage-link{
+    font-size: 21px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.unit-descriptors{ 
+    font-size: 18px;
+    text-align:center ;
+}

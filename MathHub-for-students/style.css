@@ -1,0 +1,96 @@
+h1 {
+text-align: center;
+}
+
+h2 {
+    font-family: Arial Black;
+    
+}
+
+
+/* Container to center the content */
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+ }
+ 
+ /* Navigation bar */
+ nav {
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    justify-content: space-between;
+ }
+ 
+ /* Top and bottom row styling */
+ .top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure each row takes the full width of the container */
+    margin: 10px 0;
+ }
+ 
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ h2 {
+    font-size: 36px;
+    padding: 48px;
+    margin: 0;
+ }
+
+ body{
+    background-color:#a1c5ec
+ }
+ 
+ /* Container to center the content */
+ .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+ }
+ 
+ /* Navigation bar */
+ nav {
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    justify-content: space-between;
+ }
+ 
+ /* Top and bottom row styling */
+ .top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure each row takes the full width of the container */
+    margin: 90px 0;
+ }
+ 
+ a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Width of the circle */
+    height: 200px; /* Height of the circle */
+    border-radius: 50%; /* Make it circular */
+    background-color: #f0f0f0; /* Background color of the circle */
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth hover effect */
+ }
+ 
+ a:hover {
+    background-color: #007BFF; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the circle on hover */
+ }
+ 
+ h2 {
+    font-size: 24px;
+    text-align: center; /* Ensure text is centered */
+    margin:  0;
+ }
